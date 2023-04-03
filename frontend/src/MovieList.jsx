@@ -6,7 +6,7 @@ function MovieList() {
 
   useEffect(() => {
     axios
-      .get('/api/movies')  // <-- changed to relative URL
+      .get('/movies')  // <-- changed to relative URL
       .then((res) => setMovies(res.data))
       .catch((e) => console.log(e));
   }, []);
