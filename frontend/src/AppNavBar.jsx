@@ -13,7 +13,6 @@ export default function AppNavbar() {
           <Nav className="me-auto">
             <Link className="popLink" to="/">Home</Link>
             <Link className="popLink" to="/MovieList">Movies</Link>
-            <Link className="popLink" to="/MovieList:title">Movies</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
